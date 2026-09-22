@@ -14,23 +14,41 @@ html {
 }
 
 .header {
-    background-color: #f5a926;
+    background-color: rgb(248, 216, 73);
     display: flex;
-    gap: 20px;
+    gap: 280px;
+    align-items: center;
+    padding: 6px 45px;
 }
 
 .header img {
-    width: 200px;
-    height: 120px;
+    width: 70px;
+    height: 70px;
 }
 
-.header nav{
-    background-color: #f5a926;
+.header ul {
     display: flex;
-    gap: 0px;
+    justify-content: space-between;
+    gap: 280px;
+    list-style: none;
+    font-size: 20px;
 }
 
-.header nav ul {
-    display: flex;
+main {
+    background-image: url("main.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
 }
 
+.about {
+    color: white;
+}
+
+.about h1 {
+    font-size: 40px;
+}
+
+.about p {
+
+}
