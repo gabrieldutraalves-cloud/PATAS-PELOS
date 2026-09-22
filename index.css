@@ -13,3 +13,24 @@ html {
     scroll-behavior: smooth;
 }
 
+.header {
+    background-color: #f5a926;
+    display: flex;
+    gap: 20px;
+}
+
+.header img {
+    width: 200px;
+    height: 120px;
+}
+
+.header nav{
+    background-color: #f5a926;
+    display: flex;
+    gap: 0px;
+}
+
+.header nav ul {
+    display: flex;
+}
+
