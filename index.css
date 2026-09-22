@@ -1,18 +1,25 @@
+/* Início todo o site */
 * {
     margin: 0;
     padding: 0;
     outline: 0;
     box-sizing: border-box;
 }
+/* Fim todo o site */
 
+/* Início body */
 body {
     font-family: 'Roboto', sans-serif;
 }
+/* Fim body */
 
+/* Inínio html */
 html {
     scroll-behavior: smooth;
 }
+/* Fim html */
 
+/* Início header */
 .header {
     background-color: rgb(248, 216, 73);
     display: flex;
@@ -33,7 +40,9 @@ html {
     list-style: none;
     font-size: 20px;
 }
+/* Fim header */
 
+/* Início Main */
 main {
     background-image: url("main.png");
     background-size: cover;
@@ -43,12 +52,57 @@ main {
 
 .about {
     color: white;
+    max-width: 65%;
+    text-align: center;
 }
 
 .about h1 {
-    font-size: 40px;
+    font-size: 60px;
+    padding-top: 100px;
 }
 
 .about p {
+    font-size: 35px;
+    padding-top: 180px;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+/* Fim Main */
+
+/* Início services */
+.services h2 {
+    text-align: center;
+}
+
+.services-div {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+/* Fim services */
+
+/* Início categories */
+.categories {
+    display: flex;
+}
+
+.categories h2 {
+    text-align: center;
+}
+/* Fim categories */
+
+/* Início maps */
+.map {
+    justify-items: center;
+}
+
+iframe {
+    align-content: center;
+}
+/* Fim maps */
+
+/* Início footer */
+.footer {
 
 }
+/* Fim footer */
