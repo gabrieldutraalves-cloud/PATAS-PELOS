@@ -53,7 +53,7 @@ html {
 
 /* Início Main */
 .about {
-    background-image: url(main.png);
+    background-image: url(Images/main.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 800px;
@@ -181,5 +181,10 @@ html {
     list-style: none;
     justify-content: center;
     gap: 80px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
 }
 /* Fim footer */

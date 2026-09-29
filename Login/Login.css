@@ -1,0 +1,46 @@
+/* Início todo o site */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+/* Fim todo o site */
+
+/* Início body */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/* Fim body */
+
+/* Inínio html */
+html {
+    scroll-behavior: smooth;
+}
+/* Fim html */
+
+/* Início header */
+.header {
+    background-color: rgb(248, 216, 73);
+    display: flex;
+    align-items: center;
+    padding: 6px 70px;
+    border-bottom: 1px solid black;
+}
+
+.header_img {
+    width: 70px;
+    height: 70px;
+}
+
+.nav_list {
+    display: flex;
+    gap: 280px;
+    list-style: none;
+    font-size: 20px;
+    padding-left: 170px;
+}
+
+.nav_list a {
+    text-decoration: none;
+    color: black;
+}
