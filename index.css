@@ -25,6 +25,7 @@ html {
     align-items: center;
     padding: 6px 70px;
     border-bottom: 1px solid black;
+    gap: 32px;
 
     position: fixed;
     top: 0;
