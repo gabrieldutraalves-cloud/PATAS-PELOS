@@ -74,5 +74,6 @@ main {
 
 .login form input {
     height: 25px;
+    border-style: none;
 }
 /* Fim Main */
