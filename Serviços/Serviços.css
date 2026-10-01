@@ -25,11 +25,6 @@ html {
     align-items: center;
     padding: 6px 70px;
     border-bottom: 1px solid black;
-
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 0;
 }
 
 .header_img {
@@ -37,15 +32,16 @@ html {
     height: 70px;
 }
 
-.nav_list {
-    display: flex;
-    gap: 280px;
-    list-style: none;
-    font-size: 20px;
-    padding-left: 170px;
+.nav {
+    margin-left: auto;
 }
 
-.nav_list a {
+.nav ul {
+    list-style: none;
+    font-size: 25px
+}
+
+.nav a {
     text-decoration: none;
     color: black;
 }
