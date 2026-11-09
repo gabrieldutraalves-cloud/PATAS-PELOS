@@ -17,27 +17,13 @@ if (!$patas_e_pelos) {
 $nome = $_POST['nome'];
 $email = $_POST['email'];
 $senha = $_POST['senha'];
-$curso = $_POST['curso']; 
-$conhecimento_previo_array = $_POST['conhecimento_previo'] ?? [];
-
-if (!is_array($conhecimento_previo_array)) {
-    $conhecimento_previo_array = [$conhecimento_previo_array];
-}
-$conhecimento_previo = implode(", ", $conhecimento_previo_array);
-$observacoes = $_POST['observacoes'];
 
 //Montar o comando SQL para inserir os dados
-$sql = "INSERT INTO inscricao (nome, email, telefone, curso, conhecimento_previo, observacoes)
-VALUES ('$nome', '$email', '$telefone', '$curso', '$conhecimento_previo', '$observacoes')";
+$sql = "INSERT INTO clientes (nome, email, senha)
+VALUES ('$nome', '$email', '$senha')";
 
-//Executar o comando no banco no banco de dados e mostrar uma mensagem
-if(mysqli_query($curso_ti, $sql)) {
-    echo "<h3> Inscrição feita com sucesso!</h3>";
-    echo "<a href='index.html'>Voltar</a>";
-} else {
-    echo "Erro ao fazer inscrição: " . mysqli__error($curso_ti);
-}
+mysqli_query($patas_e_pelos, $sql);
 
 //Fechar a conexão com o banco
-mysqli_close($curso_ti)
+mysqli_close($patas_e_pelos)
 ?>
