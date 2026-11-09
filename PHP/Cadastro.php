@@ -3,20 +3,20 @@
 $servidor = "localhost";
 $usuario = "root";
 $senha_bd = "";
-$banco = "curso_ti";
+$banco = "patas_e_pelos";
 
 // Criar a conexão
-$curso_ti = mysqli_connect ($servidor, $usuario, $senha_bd, $banco);
+$patas_e_pelos = mysqli_connect ($servidor, $usuario, $senha_bd, $banco);
 
 // Verificar se a conexão deu certo
-if (!$curso_ti) {
+if (!$patas_e_pelos) {
     die("Erro de conexão: " . mysqli_connect_error());
 }
 
 //Pegar os dados que vieram do html
 $nome = $_POST['nome'];
 $email = $_POST['email'];
-$telefone = $_POST['telefone'];
+$senha = $_POST['senha'];
 $curso = $_POST['curso']; 
 $conhecimento_previo_array = $_POST['conhecimento_previo'] ?? [];
 
