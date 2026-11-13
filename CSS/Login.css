@@ -44,13 +44,13 @@ html {
 
 /* Início Main */
 main {
-    
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 240px;
 }
 
+/* Caixa de login */
 .login {
     background-color: rgb(248, 216, 73);
 
@@ -68,33 +68,26 @@ main {
     border-radius: 30px;
 }
 
-.login_form1 {
-    margin-top: 20px;
+/* Forms */
+.formEmail, .formSenha {
     background-color: white;
-    padding: 10px;
+    display: flex;
+    width: 400px;
+    height: 70px;
+    margin: 10px;
+    align-items: center;
     font-size: 30px;
-    width: 390px;
     border-radius: 10px;
 }
 
-.login_form1 input {
-    height: 25px;
-    border-style: none;
+.formEmail label, .formSenha label {
+    padding-left: 15px;
 }
 
-.login_form2 {
-    margin-top: 15px;
-    padding: 10px;
-    border-radius: 10px;
-
-    background-color: white;
-    font-size: 30px;
-    width: 390px;
-}
-
-.login_form2 input {
-    height: 25px;
+.formEmail input, .formSenha input {
+    font-size: 20px;
     border-style: none;
+    text-align: center;
 }
 
 .login button {
