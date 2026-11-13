@@ -45,3 +45,21 @@ html {
     text-decoration: none;
     color: black;
 }
+
+h1 {
+    text-align: center;
+    padding-top: 80px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 80px;
+    margin-top: 80px;
+}
+
+article a {
+    text-decoration: none;
+    color: black;
+}
