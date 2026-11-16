@@ -44,11 +44,10 @@ html {
 
 /* Início Main */
 main {
-    
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 66px;
 }
 
 .cadastro {
@@ -90,6 +89,7 @@ main {
 }
 
 button a {
+    text-align: center;
     text-decoration: none;
     color: white;
 }
