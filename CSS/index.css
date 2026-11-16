@@ -39,10 +39,10 @@ html {
 
 .nav_list {
     display: flex;
-    gap: 280px;
+    gap: 190px;
     list-style: none;
     font-size: 20px;
-    padding-left: 170px;
+    padding-left: 150px;
 }
 
 .nav_list a {

@@ -33,6 +33,7 @@ html {
     color: white;
 }
 
+/* Início nav */
 .nav {
     margin-left: auto;
 }
@@ -45,4 +46,31 @@ html {
 .nav a {
     text-decoration: none;
     color: black;
+}
+/* Fim nav */
+/* Fim header */
+
+/* Section unidade centro */
+.unidade_centro {
+    background-color: white;
+}
+
+.unidade_centro div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Section unidade sul */
+.unidade_sul {
+    background-color: black;
+    color: white;
+}
+
+.unidade_sul div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
