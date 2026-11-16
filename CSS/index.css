@@ -39,10 +39,10 @@ html {
 
 .nav_list {
     display: flex;
-    gap: 190px;
+    gap: 260px;
     list-style: none;
     font-size: 20px;
-    padding-left: 150px;
+    padding-left: 180px;
 }
 
 .nav_list a {
@@ -127,6 +127,10 @@ html {
     height: 455px;
     margin: 20px;
     border-radius: 35px;
+}
+
+.preço {
+    
 }
 /* Fim services */
 
